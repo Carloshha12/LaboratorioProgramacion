@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "**/*.class": true,
+    "out/": true
+  },
+  "search.exclude": {
+    "**/*.class": true,
+    "out/": true
+  }
+
+
+
+  ,"java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "java.import.gradle.enabled": false,
+  "java.import.maven.enabled": false,
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ]
+}
