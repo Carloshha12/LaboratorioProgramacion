@@ -18,7 +18,6 @@ public class EstadoAmarillo extends Estado {
             if (tiempo == -1) {
                 this.getSemaforo().mostrar("Cambio a Rojo");
                 this.getSemaforo().changeState(new EstadoRojo(getSemaforo()));
-                return;
             }
         }
     }
