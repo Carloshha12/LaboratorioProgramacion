@@ -1,6 +1,9 @@
 class Semaforo {
     private Estado estado;
+<<<<<<< HEAD
 
+=======
+>>>>>>> pollo/main
     public Semaforo() {
         this.estado = new EstadoRojo(this);
     }
