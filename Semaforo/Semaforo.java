@@ -1,10 +1,8 @@
 class Semaforo {
     private Estado estado;
-<<<<<<< HEAD
-
-=======
->>>>>>> pollo/main
     public Semaforo() {
+        //Se le pasa como referencia el objeto semaforo para que conozca su contexto, 
+        //puede usar los metodos de semaforo y cambiar estado de esta manera
         this.estado = new EstadoRojo(this);
     }
 

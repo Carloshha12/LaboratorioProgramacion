@@ -14,6 +14,6 @@ public class test {
         // Pruebas cortitas
          exec.scheduleAtFixedRate(semaforo::cambiarEstado, 0, 1, TimeUnit.SECONDS);
 
-        // Detiene la ejecución después de 2 minutos
+        // Detiene la ejecucion despues de 2 minutos
          exec.schedule(exec::shutdown, 2, TimeUnit.MINUTES);
     }}
